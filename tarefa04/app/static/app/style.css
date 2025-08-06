@@ -1,0 +1,181 @@
+
+body {
+    min-height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+    color: blue;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: blue;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    bottom: 0;
+    width: 98.95%;
+    position: absolute;
+    height: 2.5rem;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+}
+
+main {
+    padding: 30px;
+    animation: fadeIn 0.7s ease-in;
+}
+
+.selecao {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.selecao h1 {
+    font-size: 2.5rem;
+    color: #006400;
+}
+
+.info {
+    margin-top: 100px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-left: 5px solid blue;
+    border-radius: 5px;
+}
+
+.info img {
+    max-width: 75%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.jogadores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.jogador-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+}
+
+.jogador-card img {
+    text-align: center;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.sobre{
+    height: 665px;
+}
+
+footer {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.partida-estilo {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 700px;
+    box-shadow: 0 4px 8px gray;
+}
+
+.info-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.info-esquerda {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.placar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time img {
+    width: 50px;
+    height: 35px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+.resultado {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    gap: 10px;
+}

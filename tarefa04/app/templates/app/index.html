@@ -1,0 +1,26 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block content %}
+
+<section class="selecao">
+    <h1>{{inicio.titulo}}</h1>
+    <p>{{inicio.subtitulo}}</p>
+
+<section class="partida-estilo">
+
+{% for tarefa in tarefas %}
+    <div class="placar" style="align-items: center;" >
+        
+        <span>{{ tarefa.nome }}</span>
+        <span>{{ tarefa.status }}</span>
+        <span>{{ tarefa.prazo }}</span>
+        <span>{{ tarefa.atraso }}</span>
+        <span></span>
+
+    </div>
+    <p>--------------------------------------------------------------------------------------------------------</p>
+{% endfor %}
+
+</section>
+
+{% endblock %}
